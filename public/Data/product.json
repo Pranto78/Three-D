@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Modern Wooden Chair",
+    "image": "https://i.ibb.co.com/60ZsKyKX/Screenshot-2026-02-25-221853.png",
+    "model": "../models/office_chair.glb",
+    "price": 129.99,
+    "color": "Walnut Brown",
+    "size": "40x40x90 cm"
+  },
+  {
+    "id": 2,
+    "name": "Luxury Dining Table",
+    "image": "https://i.ibb.co.com/KxCxKSFV/Screenshot-2026-02-25-222049.png",
+    "model":"../models/dining_table.glb",
+    "price": 499.99,
+    "color": "Dark Oak",
+    "size": "200x100x75 cm"
+  },
+  {
+    "id": 3,
+    "name": "Queen Size Bed",
+    "image": "https://i.ibb.co.com/TDbCsq5P/Screenshot-2026-02-25-222225.png",
+    "model": "../models/bed.glb",
+    "price": 799.99,
+    "color": "Espresso",
+    "size": "200x160x100 cm"
+  }
+]

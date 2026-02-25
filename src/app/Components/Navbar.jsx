@@ -1,3 +1,5 @@
+import { BellRing, ShoppingCart, Van } from 'lucide-react';
+import Link from 'next/link';
 import React from 'react'
 
 export default function Navbar() {
@@ -11,6 +13,9 @@ export default function Navbar() {
         </li>
         <li>
           <a>Contact</a>
+        </li>
+        <li>
+          <Link href={"/products"}>Products</Link>
         </li>
       </>
     );
@@ -79,8 +84,16 @@ export default function Navbar() {
             </svg>
           </label>
         </div>
-        <div>
-          <a className="btn">Button</a>
+        <div className="space-x-3">
+          <a className="btn btn-square">
+            <ShoppingCart />
+          </a>
+          <a className="btn btn-square">
+            <BellRing />
+          </a>
+          <a className="btn btn-square">
+            <Van />
+          </a>
         </div>
       </div>
     </div>
