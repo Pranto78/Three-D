@@ -1,5 +1,6 @@
 "use client";
 
+import { Camera } from "lucide-react";
 import React, { useState, useRef } from "react";
 
 export default function ProductCard({ product }) {
@@ -35,7 +36,7 @@ export default function ProductCard({ product }) {
           onClick={openAR}
           className="md:hidden absolute bottom-4 right-4 bg-black text-white p-3 rounded-full shadow-lg"
         >
-          📷
+          <Camera />
         </button>
       </div>
 

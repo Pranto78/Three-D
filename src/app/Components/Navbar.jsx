@@ -6,7 +6,7 @@ export default function Navbar() {
     const links = (
       <>
         <li>
-          <a>Home</a>
+          <Link href={"/"}>Home</Link>
         </li>
         <li>
           <a>About</a>
@@ -47,9 +47,9 @@ export default function Navbar() {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">
+        <Link href={"/"} className="btn btn-ghost text-xl">
           Touch<span className="font-bold text-blue-800">&</span>Buy
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
@@ -84,7 +84,7 @@ export default function Navbar() {
             </svg>
           </label>
         </div>
-        <div className="space-x-3">
+        <div className=" flex space-x-3">
           <a className="btn btn-square">
             <ShoppingCart />
           </a>

@@ -36,6 +36,7 @@ export default function page() {
         <div className="absolute top-0 left-0 w-60 h-60 bg-blue-200 rounded-full opacity-30 animate-blob mix-blend-multiply filter blur-3xl"></div>
         <div className="absolute bottom-20 right-0 w-72 h-72 bg-pink-200 rounded-full opacity-30 animate-blob animation-delay-2000 mix-blend-multiply filter blur-3xl"></div>
       </main>
+      
     </div>
   );
 }
